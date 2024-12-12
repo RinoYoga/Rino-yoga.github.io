@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="stylesheet" type="text/css" href="gallery.css" />
+    <link rel="stylesheet" href="fakeloader.css" />
+    <link rel="shortcut icon" href="LOGO SMEA.png" />
+  </head>
+  <body>
+    <header>
+      <h2 class="logo">Catering Mama Daffa</h2>
+      <nav class="navigation">
+        <a href="Home.html">Home</a>
+        <a href="Menu.html">Menu</a>
+        <a href="Login.html">Contact</a>
+        <a href="">Gallery</a>
+      </nav>
+    </header>
+
+    <ul>
+      <li>
+        <a href="">
+          <figure>
+            <img src="Nasi Megono.jpg" />
+            <figcaption>Nasi Megono</figcaption>
+          </figure>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <figure>
+            <img src="Nasi Tumpeng.jpg" />
+            <figcaption>Tumpeng</figcaption>
+          </figure>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <figure>
+            <img src="Klepon.jpg" />
+            <figcaption>klepon</figcaption>
+          </figure>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <figure>
+            <img src="Nasi kotak.jpg" />
+            <figcaption>Nasi Kotak</figcaption>
+          </figure>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <figure>
+            <img src="Ayam Goreng.jpg" />
+            <figcaption>Ayam Goreng</figcaption>
+          </figure>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <figure>
+            <img src="Sate.jpg" />
+            <figcaption>Sate</figcaption>
+          </figure>
+        </a>
+      </li>
+    </ul>
+    <div class="fakeLoader"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="home.js"></script>
+
+    <script>
+      $(document).ready(function () {
+          $.fakeLoader({
+              bgColor: 'green',
+              spinner:"spinner6"
+          });
+      });
+    </script>
+  </body>
+</html>
